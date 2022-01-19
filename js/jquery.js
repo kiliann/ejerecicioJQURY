@@ -4,13 +4,13 @@
 $(document).ready(inicio)
 
 function inicio() {
-    ejercicioUno()
-    ejercicioDos()
-    ejercicioTres()
-    ejercicioCuatro()
-    ejercicioCinco()
-    ejercicioSeis()
-    ejercicioSiete()
+    ejercicio1()
+    ejercicio2()
+    ejercicio3()
+    ejercicio4()
+    ejercicio5()
+    ejercicio6()
+    ejercicio7()
     ejercicio8()
     ejercicio9()
     ejercicio10()
@@ -26,33 +26,42 @@ function inicio() {
     ejercicio20()
 }
 
+//Ejercicio 1
 
-
-function ejercicioUno() {
+function ejercicio1() {
     $("h1").click((evento) => {
         $(evento.target).css("background-color", "blue").css("color", "red").css("font-family", "comic sans ms")
 
     })
 }
 
-function ejercicioDos() {
+//Ejercicio 2
+
+function ejercicio2() {
     $("td").click((evento) => {
         $(evento.target).css("background-color", "red")
     })
 }
 
-function ejercicioTres() {
+//Ejercicio 3
+
+function ejercicio3() {
     $("button").eq(0).click(() => {
         $("ul").eq(0).hide();
     })
 }
-function ejercicioCuatro() {
+
+//Ejercicio 4
+
+function ejercicio4() {
     $("button").eq(1).click(() => {
         $(".objetos").css("background-color", "red")
     })
 }
 
-function ejercicioCinco() {
+//Ejercicio 5
+
+function ejercicio5() {
     $("#boton1").click(() => {
         alert($("p").text())
     })
@@ -65,7 +74,9 @@ function ejercicioCinco() {
     })
 }
 
-function ejercicioSeis() {
+//Ejercicio 6
+
+function ejercicio6() {
     $(".boton").eq(0).click(() => {
         $(".tablaUno").css("border", "2px solid red")
         $(".tablaUno tr td").css("border", "2px solid red")
@@ -79,7 +90,9 @@ function ejercicioSeis() {
     })
 }
 
-function ejercicioSiete() {
+//Ejercicio 7
+
+function ejercicio7() {
     $("#añadir").click(() => {
         $("#ej7").addClass("ejSiete")
     })
